@@ -1,4 +1,4 @@
-# Publikacje-DBM 🇵🇱
+# Publikacje-DBM 
 System publikacji Discord Bot Maker ~ feymez <br>
 
 Spkopiuj dane z pliku pub-pl.json i wklej jako rawdatę do programu Discord Bot Maker <br>
@@ -39,7 +39,7 @@ Akcja #2 przycisku - Wklejamy ID kanału #api-moderacja <br>
 Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa <br>
 Akcja #14 przycisku - Wklejamy ID kanału #api-inne <br>
 
-# Publications DBM 🇺🇸
+# Publications DBM
 Publications system Discord Bot Maker ~ feymez <br>
 
 Copy the data from the pub-en.json file and paste it as rawdata into Discord Bot Maker <br>
