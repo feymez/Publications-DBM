@@ -36,3 +36,16 @@ Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => '
 Akcja #2 przycisku - Wklejamy ID kanału #api-moderacja
 Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa
 Akcja #14 przycisku - Wklejamy ID kanału #api-inne
+
+# Publications DBM
+Publications system Discord Bot Maker ~ feymez
+
+For everything to work as planned, before the configuration, you should prepare:
+  - 3 channels for people checking publications (e.g. #rto-check-rawdata, #to-check-scripts, #to-check-api)
+  - 3 channels for each type of publication (e.g. rawdate's: #raw-moderation, #raw-fun, #raw-other etc.)
+The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in each of the categories we have 3 subcategories (MODERATION, FUN, OTHER)
+
+ATTENTION! The system does not count the published publications!
+
+
+#####THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
