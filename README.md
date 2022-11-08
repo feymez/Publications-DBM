@@ -6,9 +6,9 @@ Aby wszystko działało tak jak zostało to przewidziane przed konfiguracją nal
   - Po 3 kanały na każdy rodzaj publikacji (np. RAWDATY: #raw-moderacja, #raw-zabawa, #raw-inne itd.)
 Cały system jest przygotowany pod 3 kategorie (RAWDATY, SKRYPTY, API) oraz w każdej z kategorii mamy 3 podkategorie (MODERACJA, ZABAWA, INNE)
 
-UWAGA! System nie nalicza wystawionych publikacji!
+### UWAGA! System nie nalicza wystawionych publikacji!
 
-##### AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
+#### AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
 
 Komenda /publikacja
 
@@ -45,7 +45,7 @@ For everything to work as planned, before the configuration, you should prepare:
   - 3 channels for each type of publication (e.g. rawdate's: #raw-moderation, #raw-fun, #raw-other etc.)
 The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in each of the categories we have 3 subcategories (MODERATION, FUN, OTHER)
 
-ATTENTION! The system does not count the published publications!
+### ATTENTION! The system does not count the published publications!
 
 
-##### THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
+#### THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
