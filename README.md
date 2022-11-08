@@ -8,7 +8,7 @@ Cały system jest przygotowany pod 3 kategorie (RAWDATY, SKRYPTY, API) oraz w ka
 
 UWAGA! System nie nalicza wystawionych publikacji!
 
-AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
+##### AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
 
 Komenda /publikacja
 
@@ -48,4 +48,4 @@ The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in ea
 ATTENTION! The system does not count the published publications!
 
 
-#####THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
+##### THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
