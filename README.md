@@ -73,6 +73,6 @@ Button Action #14 - Paste the channel ID #raw-other <br>
 
 Then we go back to the command action. Go to action #14 => 'Buttons' => 'Accept' <br>
 
-Button Action #2 - Paste the channel ID #api-moderation
-Button Action #8 - Paste the channel ID #api-fun
-Button Action #14 - Paste the channel ID #api-other
+Button Action #2 - Paste the channel ID #api-moderation <br>
+Button Action #8 - Paste the channel ID #api-fun <br>
+Button Action #14 - Paste the channel ID #api-other <br>
