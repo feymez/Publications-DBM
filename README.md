@@ -1,5 +1,5 @@
 # Publikacje-DBM 
-System publikacji Discord Bot Maker ~ feymez <br>
+## System publikacji Discord Bot Maker ~ feymez <br>
 
 Skopiuj dane z pliku pub-pl.json i wklej jako rawdatę do programu Discord Bot Maker <br>
 
