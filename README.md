@@ -49,3 +49,9 @@ The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in ea
 
 
 #### THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
+
+Command /publish
+
+Action #8 - Paste the channel ID #to-check-scripts
+Action #11 - Paste the channel ID #to-check-rawdate
+Action #14 - Paste the channel ID #to-check-api
