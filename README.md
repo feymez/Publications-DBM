@@ -1,6 +1,8 @@
 # Publikacje-DBM
 System publikacji Discord Bot Maker ~ feymez
 
+Spkopiuj dane z pliku pub-pl.json i wklej jako rawdatę do programu Discord Bot Maker
+
 Aby wszystko działało tak jak zostało to przewidziane przed konfiguracją należy przygotować:
   - 3 kanały dla osób sprawdzających publikacje (np. #do-sprawdzenia-rawdaty, #do-sprawdzenia-skrypty, #do-sprawdzenia-api)
   - Po 3 kanały na każdy rodzaj publikacji (np. RAWDATY: #raw-moderacja, #raw-zabawa, #raw-inne itd.)
