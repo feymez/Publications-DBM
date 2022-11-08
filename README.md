@@ -55,3 +55,24 @@ Command /publish <br>
 Action #8 - Paste the channel ID #to-check-scripts <br>
 Action #11 - Paste the channel ID #to-check-rawdate <br>
 Action #14 - Paste the channel ID #to-check-api <br>
+
+We move on to action #8 <br>
+Click on the 'Buttons' and go to the 'Accept' button <br>
+
+Button Action #2 - Paste the channel ID #scripts-moderation <br>
+Button Action #8 - Paste the channel ID #scripts-fun <br>
+Button Action #14 - Paste the channel ID #scripts-other <br>
+
+(Additionally, if we want, we can change the emotes that the bot will add to the message. Then we change it in actions #3, #4, #9, #10, #15, #16) <br>
+
+Then we go back to the command action. Go to action #11 => 'Buttons' => 'Accept' <br>
+
+Button Action #2 - Paste the channel ID #raw-moderation <br>
+Button Action #8 - Paste the channel ID #raw-fun <br>
+Button Action #14 - Paste the channel ID #raw-other <br>
+
+Then we go back to the command action. Go to action #14 => 'Buttons' => 'Accept' <br>
+
+Button Action #2 - Paste the channel ID #api-moderation
+Button Action #8 - Paste the channel ID #api-fun
+Button Action #14 - Paste the channel ID #api-other
