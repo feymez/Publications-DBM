@@ -40,7 +40,7 @@ Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa <br>
 Akcja #14 przycisku - Wklejamy ID kanału #api-inne <br>
 
 # Publications-DBM
-Discord Bot Make Publications system ~ feymez <br>
+Discord Bot Maker Publications system ~ feymez <br>
 
 Copy the data from the pub-en.json file and paste it as rawdata into Discord Bot Maker <br>
 
