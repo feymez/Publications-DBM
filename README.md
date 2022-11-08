@@ -52,6 +52,6 @@ The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in ea
 
 Command /publish
 
-Action #8 - Paste the channel ID #to-check-scripts:-
+Action #8 - Paste the channel ID #to-check-scripts <br>
 Action #11 - Paste the channel ID #to-check-rawdate
 Action #14 - Paste the channel ID #to-check-api
