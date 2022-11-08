@@ -10,7 +10,7 @@ Cały system jest przygotowany pod 3 kategorie (RAWDATY, SKRYPTY, API) oraz w ka
 
 #### AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
 
-Komenda /publikacja
+Komenda /publikacja <br>
 
 Akcja #8 - Wklejamy ID kanału #do-sprawdzenia-skrypty <br>
 Akcja #11 - Wklejamy ID kanału #do-sprawdzenia-rawdaty <br>
@@ -23,19 +23,19 @@ Akcja #2 przycisku - Wklejamy ID kanału #skrypty-moderacja <br>
 Akcja #8 przycisku - Wklejamy ID kanału #skrypty-zabawa <br>
 Akcja #14 przycisku - Wklejamy ID kanału #skrypty-inne <br>
 
-(Dodatkowo jeżeli chcemy możemy zmienić emotki jakie bot doda do wiadomości. Wtedy zmieniamy to w akcjach #3, #4, #9, #10, #15, #16)
+(Dodatkowo jeżeli chcemy możemy zmienić emotki jakie bot doda do wiadomości. Wtedy zmieniamy to w akcjach #3, #4, #9, #10, #15, #16) <br>
 
-Następnie wracamy do akcji komendy. Przechodzimy do akcji #11 => 'Buttons' => 'Przyjmij'
+Następnie wracamy do akcji komendy. Przechodzimy do akcji #11 => 'Buttons' => 'Przyjmij' <br>
 
-Akcja #2 przycisku - Wklejamy ID kanału #raw-moderacja
-Akcja #8 przycisku - Wklejamy ID kanału #raw-zabawa
-Akcja #14 przycisku - Wklejamy ID kanału #raw-inne
+Akcja #2 przycisku - Wklejamy ID kanału #raw-moderacja <br>
+Akcja #8 przycisku - Wklejamy ID kanału #raw-zabawa <br>
+Akcja #14 przycisku - Wklejamy ID kanału #raw-inne <br>
 
-Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => 'Przyjmij'
+Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => 'Przyjmij' <br>
 
-Akcja #2 przycisku - Wklejamy ID kanału #api-moderacja
-Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa
-Akcja #14 przycisku - Wklejamy ID kanału #api-inne
+Akcja #2 przycisku - Wklejamy ID kanału #api-moderacja <br>
+Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa <br>
+Akcja #14 przycisku - Wklejamy ID kanału #api-inne <br>
 
 # Publications DBM
 Publications system Discord Bot Maker ~ feymez
@@ -50,8 +50,8 @@ The whole system is prepared for 3 categories (RAWDATES, SCRIPTS, API) and in ea
 
 #### THE AUTHOR IS NOT RESPONSIBLE FOR THE OPERATION OF THE EDITED RAWDATA!
 
-Command /publish
+Command /publish <br>
 
 Action #8 - Paste the channel ID #to-check-scripts <br>
-Action #11 - Paste the channel ID #to-check-rawdate
-Action #14 - Paste the channel ID #to-check-api
+Action #11 - Paste the channel ID #to-check-rawdate <br>
+Action #14 - Paste the channel ID #to-check-api <br>
