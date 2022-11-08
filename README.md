@@ -1,7 +1,7 @@
 # Publikacje-DBM
-System publikacji Discord Bot Maker ~ feymez
+System publikacji Discord Bot Maker ~ feymez <br>
 
-Spkopiuj dane z pliku pub-pl.json i wklej jako rawdatę do programu Discord Bot Maker
+Spkopiuj dane z pliku pub-pl.json i wklej jako rawdatę do programu Discord Bot Maker <br>
 
 Aby wszystko działało tak jak zostało to przewidziane przed konfiguracją należy przygotować:
   - 3 kanały dla osób sprawdzających publikacje (np. #do-sprawdzenia-rawdaty, #do-sprawdzenia-skrypty, #do-sprawdzenia-api)
@@ -40,7 +40,11 @@ Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa <br>
 Akcja #14 przycisku - Wklejamy ID kanału #api-inne <br>
 
 # Publications DBM
-Publications system Discord Bot Maker ~ feymez
+Publications system Discord Bot Maker ~ feymez <br>
+
+Copy the data from the pub-en.json file and paste it as rawdata into Discord Bot Maker <br>
+
+Copy the data from the pub-pl.json file and paste it as rawdata into Discord Bot Maker
 
 For everything to work as planned, before the configuration, you should prepare:
   - 3 channels for people checking publications (e.g. #to-check-rawdata, #to-check-scripts, #to-check-api)
