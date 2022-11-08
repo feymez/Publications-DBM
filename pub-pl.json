@@ -1,0 +1,1193 @@
+{
+  "name": "publikacja",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "SKswg",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "info": "16",
+      "storage": "1",
+      "varName2": "command_user_avatar_url",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "21",
+      "storage": "1",
+      "varName2": "command_user_tag",
+      "name": "Store Member Info"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "info": "0",
+      "storage": "1",
+      "varName2": "command_user",
+      "name": "Store Member Info"
+    },
+    {
+      "storage": "4",
+      "varName": "Link",
+      "comparison": "5",
+      "value": "https://",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "0",
+        "iftrueVal": "7"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "",
+      "buttons": [],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "",
+          "url": "",
+          "color": "ff0000",
+          "timestamp": "false",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "**Wklejono niepoprawny lub niebezpieczny link!**\n\nOpis twojej publikacji do skopiowania:\n\n${slashParams(\"Opis\")}",
+          "fields": [],
+          "author": "",
+          "authorUrl": "",
+          "authorIcon": "",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": true,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Typ",
+      "comparison": "1",
+      "value": "skrypt",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "2",
+        "iffalseVal": "10"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "103",
+      "varName": "SKRYPTY-DO-SPRAWDZENIA",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Przyjmij",
+          "type": "SUCCESS",
+          "id": "msg-button-6214b60",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "moderacja",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "7"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "SKRYPTY-MODERACJA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> moderacja\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "zabawa",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "13"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "SKRYPTY-ZABAWA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> zabawa\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "inne",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "1"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "SKRYPTY-INNE",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> inne\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        },
+        {
+          "name": "Odrzuć",
+          "type": "DANGER",
+          "id": "msg-button-3011720",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "title": "Odrzucenie publikacji",
+              "textInputs": [
+                {
+                  "name": "Powód",
+                  "placeholder": "Wpisz powód odrzucenia publikacji",
+                  "minLength": "0",
+                  "maxLength": "1000",
+                  "id": "reason",
+                  "row": "",
+                  "style": "PARAGRAPH",
+                  "required": "true"
+                }
+              ],
+              "name": "Show Modal"
+            },
+            {
+              "channel": "5",
+              "varName": "command_user",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Twoja publikacja została odrzucona",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "> **Powód:**\n${tempVars(\"reason\")}\n\n> **Typ:**\nSkrypt\n\n> **Kategoria publikacji:**\n${slashParams(\"Kategoria\")}\n\n> **Opis publikacji:**\n${slashParams(\"Opis\")}\n\n> **Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`(${slashParams(\"Link\")})`*\n",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Nowy skrypt do publikacji",
+          "url": "",
+          "color": "ff0000",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "**Kategoria:**\n> ${slashParams(\"Kategoria\")}\n\n**Opis:**\n${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+          "fields": [],
+          "author": "${tempVars(\"command_user_tag\")}",
+          "authorUrl": "",
+          "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "1",
+      "varName2": "check_message",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Typ",
+      "comparison": "1",
+      "value": "rawdata",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "2",
+        "iffalseVal": "13"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "103",
+      "varName": "RAWDATY-DO-SPRAWDZENIA",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Przyjmij",
+          "type": "SUCCESS",
+          "id": "msg-button-bf54dbc",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "moderacja",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "7"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "RAWDATY-MODERACJA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> moderacja\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "zabawa",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "13"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "RAWDATY-ZABAWA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> zabawa\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "inne",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "1"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "RAWDATY-INNE",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> inne\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        },
+        {
+          "name": "Odrzuć",
+          "type": "DANGER",
+          "id": "msg-button-3011720",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "title": "Odrzucenie publikacji",
+              "textInputs": [
+                {
+                  "name": "Powód",
+                  "placeholder": "Wpisz powód odrzucenia publikacji",
+                  "minLength": "0",
+                  "maxLength": "1000",
+                  "id": "reason",
+                  "row": "",
+                  "style": "PARAGRAPH",
+                  "required": "true"
+                }
+              ],
+              "name": "Show Modal"
+            },
+            {
+              "channel": "5",
+              "varName": "command_user",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Twoja publikacja została odrzucona",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "> **Powód:**\n${tempVars(\"reason\")}\n\n> **Typ:**\nrawdata\n\n> **Kategoria publikacji:**\n${slashParams(\"Kategoria\")}\n\n> **Opis publikacji:**\n${slashParams(\"Opis\")}\n\n> **Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`(${slashParams(\"Link\")})`*\n",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Nowa rawdata do publikacji",
+          "url": "",
+          "color": "ff0000",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "**Kategoria:**\n> ${slashParams(\"Kategoria\")}\n\n**Opis:**\n${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+          "fields": [],
+          "author": "${tempVars(\"command_user_tag\")}",
+          "authorUrl": "",
+          "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "1",
+      "varName2": "check_message",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Typ",
+      "comparison": "1",
+      "value": "api",
+      "branch": {
+        "iftrue": "0",
+        "iffalse": "1"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "channel": "103",
+      "varName": "API-DO-SPRAWDZENIA",
+      "message": "",
+      "buttons": [
+        {
+          "name": "Przyjmij",
+          "type": "SUCCESS",
+          "id": "msg-button-a7f9790",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "moderacja",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "7"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "API-MODERACJA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> moderacja\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "zabawa",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "2",
+                "iffalseVal": "13"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "API-ZABAWA",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> zabawa\n\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            },
+            {
+              "name": "End Action Sequence"
+            },
+            {
+              "storage": "4",
+              "varName": "Kategoria",
+              "comparison": "1",
+              "value": "inne",
+              "branch": {
+                "iftrue": "0",
+                "iffalse": "1"
+              },
+              "name": "Check Variable"
+            },
+            {
+              "channel": "103",
+              "varName": "API-INNE",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "**Kategoria publikacji:**\n> inne\n**Opis publikacji:**\n> ${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+                  "fields": [],
+                  "author": "${tempVars(\"command_user_tag\")}",
+                  "authorUrl": "",
+                  "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "1",
+              "varName2": "script_message",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👍",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "script_message",
+              "emoji": "4",
+              "varName2": "👎",
+              "varName3": "",
+              "name": "Add Reaction"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "allButtons",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        },
+        {
+          "name": "Odrzuć",
+          "type": "DANGER",
+          "id": "msg-button-598042f",
+          "row": "",
+          "url": "",
+          "emoji": "",
+          "mode": "PUBLIC",
+          "time": "",
+          "actions": [
+            {
+              "title": "Odrzucenie publikacji",
+              "textInputs": [
+                {
+                  "name": "Powód",
+                  "placeholder": "Wpisz powód odrzucenia publikacji",
+                  "minLength": "0",
+                  "maxLength": "1000",
+                  "id": "reason",
+                  "row": "",
+                  "style": "PARAGRAPH",
+                  "required": "true"
+                }
+              ],
+              "name": "Show Modal"
+            },
+            {
+              "channel": "5",
+              "varName": "command_user",
+              "message": "",
+              "buttons": [],
+              "selectMenus": [],
+              "attachments": [],
+              "embeds": [
+                {
+                  "title": "Twoja publikacja została odrzucona",
+                  "url": "",
+                  "color": "ff0000",
+                  "timestamp": "false",
+                  "imageUrl": "",
+                  "thumbUrl": "",
+                  "description": "> **Powód:**\n${tempVars(\"reason\")}\n\n> **Typ:**\napi\n\n> **Kategoria publikacji:**\n${slashParams(\"Kategoria\")}\n\n> **Opis publikacji:**\n${slashParams(\"Opis\")}\n\n> **Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`(${slashParams(\"Link\")})`*\n",
+                  "fields": [],
+                  "author": "",
+                  "authorUrl": "",
+                  "authorIcon": "",
+                  "footerText": "",
+                  "footerIconUrl": ""
+                }
+              ],
+              "reply": true,
+              "ephemeral": false,
+              "tts": false,
+              "overwrite": false,
+              "dontSend": false,
+              "editMessage": "0",
+              "editMessageVarName": "",
+              "storage": "0",
+              "varName2": "",
+              "name": "Send Message"
+            },
+            {
+              "storage": "1",
+              "varName": "check_message",
+              "type": "all",
+              "disable": "disable",
+              "searchValue": "",
+              "name": "Disable Buttons and Selects"
+            }
+          ]
+        }
+      ],
+      "selectMenus": [],
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Nowe api do publikacji",
+          "url": "",
+          "color": "ff0000",
+          "timestamp": "true",
+          "imageUrl": "",
+          "thumbUrl": "",
+          "description": "**Kategoria:**\n> ${slashParams(\"Kategoria\")}\n\n**Opis:**\n${slashParams(\"Opis\")}\n\n**Link:**\n[KLIKNIJ](${slashParams(\"Link\")}) *`${slashParams(\"Link\")}`*",
+          "fields": [],
+          "author": "${tempVars(\"command_user_tag\")}",
+          "authorUrl": "",
+          "authorIcon": "${tempVars(\"command_user_avatar_url\")}",
+          "footerText": "",
+          "footerIconUrl": ""
+        }
+      ],
+      "reply": true,
+      "ephemeral": false,
+      "tts": false,
+      "overwrite": false,
+      "dontSend": false,
+      "editMessage": "0",
+      "editMessageVarName": "",
+      "storage": "1",
+      "varName2": "check_message",
+      "name": "Send Message"
+    }
+  ],
+  "comType": "4",
+  "description": "Opublikuj raw datę / skrypt / api",
+  "parameters": [
+    {
+      "name": "Typ",
+      "description": "Wybierz typ swojej publikacji...",
+      "type": "STRING",
+      "required": true,
+      "choices": [
+        {
+          "name": "skrypt",
+          "value": "skrypt"
+        },
+        {
+          "name": "rawdata",
+          "value": "rawdata"
+        },
+        {
+          "name": "api",
+          "value": "api"
+        }
+      ]
+    },
+    {
+      "name": "Kategoria",
+      "description": "Wybierz kategorię swojej publikacji...",
+      "type": "STRING",
+      "required": true,
+      "choices": [
+        {
+          "name": "moderacja",
+          "value": "moderacja"
+        },
+        {
+          "name": "zabawa",
+          "value": "zabawa"
+        },
+        {
+          "name": "inne",
+          "value": "inne"
+        }
+      ]
+    },
+    {
+      "name": "Opis",
+      "description": "Opisz swoją publikacje...",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    },
+    {
+      "name": "Link",
+      "description": "Link do publikacji...",
+      "type": "STRING",
+      "required": true,
+      "choices": null
+    }
+  ]
+}
