@@ -44,8 +44,6 @@ Publications system Discord Bot Maker ~ feymez <br>
 
 Copy the data from the pub-en.json file and paste it as rawdata into Discord Bot Maker <br>
 
-Copy the data from the pub-pl.json file and paste it as rawdata into Discord Bot Maker
-
 For everything to work as planned, before the configuration, you should prepare:
   - 3 channels for people checking publications (e.g. #to-check-rawdata, #to-check-scripts, #to-check-api)
   - 3 channels for each type of publication (e.g. rawdate's: #raw-moderation, #raw-fun, #raw-other etc.)
