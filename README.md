@@ -12,9 +12,9 @@ Cały system jest przygotowany pod `3` kategorie (`RAWDATY`, `SKRYPTY`, `API`) o
 
 #### AUTOR NIE ODPOWIADA ZA DZIAŁANIE PRZEROBIONEJ RAWDATY
 
-Komenda /publikacja <br>
+#### Komenda /publikacja <br>
 
-Akcja #8 - Wklejamy ID kanału #do-sprawdzenia-skrypty <br>
+**Akcja `#8` - Wklejamy ID kanału `#do-sprawdzenia-skrypty`.** <br>
 Akcja #11 - Wklejamy ID kanału #do-sprawdzenia-rawdaty <br>
 Akcja #14 - Wklejamy ID kanału #do-sprawdzenia-api <br>
  
