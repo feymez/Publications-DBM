@@ -67,7 +67,7 @@ The whole system is prepared for `3` categories (`RAWDATES`, `SCRIPTS`, `API`) a
 **Button Action `#8` - Paste the channel ID `#scripts-fun`.** <br>
 **Button Action `#14` - Paste the channel ID `#scripts-other`.** <br>
 
-*(Additionally, if we want, we can change the emotes that the bot will add to the message. Then we change it in actions `#3`, `#4`, `#9`, `#10` #5, #16)* <br>
+*(Additionally, if we want, we can change the emotes that the bot will add to the message. Then we change it in actions `#3`, `#4`, `#9`, `#10` `#15`, `#16`)* <br>
 
 Then we go back to the command action. Go to action #11 => 'Buttons' => 'Accept' <br>
 
