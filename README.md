@@ -27,13 +27,13 @@ Cały system jest przygotowany pod `3` kategorie (`RAWDATY`, `SKRYPTY`, `API`) o
 
 *(Dodatkowo jeżeli chcemy możemy zmienić emotki jakie bot doda do wiadomości. Wtedy zmieniamy to w akcjach `#3`, `#4`, `#9`, `#10`, `#15`, `#16`)* <br>
 
-Następnie wracamy do akcji komendy. Przechodzimy do akcji #11 => 'Buttons' => 'Przyjmij' <br>
+Następnie wracamy do akcji komendy. Przechodzimy do akcji `#11` => `'Buttons'` => `'Przyjmij'` <br>
 
 Akcja #2 przycisku - Wklejamy ID kanału #raw-moderacja <br>
 Akcja #8 przycisku - Wklejamy ID kanału #raw-zabawa <br>
 Akcja #14 przycisku - Wklejamy ID kanału #raw-inne <br>
 
-Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => 'Przyjmij' <br>
+*Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => 'Przyjmij'* <br>
 
 Akcja #2 przycisku - Wklejamy ID kanału #api-moderacja <br>
 Akcja #8 przycisku - Wklejamy ID kanału #api-zabawa <br>
