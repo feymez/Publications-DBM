@@ -33,7 +33,7 @@ Następnie wracamy do akcji komendy. Przechodzimy do akcji `#11` => `'Buttons'` 
 **Akcja `#8` przycisku - Wklejamy ID kanału `#raw-zabawa`.** <br>
 **Akcja `#14` przycisku - Wklejamy ID kanału `#raw-inne`.** <br>
 
-*Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => 'Buttons' => 'Przyjmij'.* <br>
+*Następnie wracamy do akcji komendy. Przechodzimy do akcji #14 => `'Buttons'` => `'Przyjmij'`.* <br>
 
 **Akcja `#2` przycisku - Wklejamy ID kanału `#api-moderacja`.** <br>
 **Akcja `#8` przycisku - Wklejamy ID kanału `#api-zabawa`.** <br>
@@ -75,8 +75,8 @@ The whole system is prepared for `3` categories (`RAWDATES`, `SCRIPTS`, `API`) a
 **Button Action `#8` - Paste the channel ID `#raw-fun`.** <br>
 **Button Action `#14` - Paste the channel ID `#raw-other`.** <br>
 
-*Then we go back to the command action. Go to action #14 => 'Buttons' => 'Accept'* <br>
+*Then we go back to the command action. Go to action `#14` => `'Buttons'` => `'Accept'`* <br>
 
-Button Action #2 - Paste the channel ID #api-moderation <br>
-Button Action #8 - Paste the channel ID #api-fun <br>
-Button Action #14 - Paste the channel ID #api-other <br>
+**Button Action `#2` - Paste the channel ID `#api-moderation`.** <br>
+**Button Action `#8` - Paste the channel ID `#api-fun`.** <br>
+**Button Action `#14` - Paste the channel ID `#api-other`.** <br>
