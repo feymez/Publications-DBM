@@ -15,17 +15,17 @@ Cały system jest przygotowany pod `3` kategorie (`RAWDATY`, `SKRYPTY`, `API`) o
 #### Komenda /publikacja <br>
 
 **Akcja `#8` - Wklejamy ID kanału `#do-sprawdzenia-skrypty`.** <br>
-Akcja #11 - Wklejamy ID kanału #do-sprawdzenia-rawdaty <br>
-Akcja #14 - Wklejamy ID kanału #do-sprawdzenia-api <br>
+**Akcja `#11` - Wklejamy ID kanału `#do-sprawdzenia-rawdaty`.** <br>
+**Akcja `#14` - Wklejamy ID kanału `#do-sprawdzenia-api`.** <br>
  
-Przechodzimy do akcji #8 <br>
-Klikamy w 'Buttons' i przechodzimy do przycisku 'Przyjmij' <br>
+**Przechodzimy do akcji `#8`.** <br>
+**Klikamy w `'Buttons'` i przechodzimy do przycisku `'Przyjmij'`.** <br>
 
-Akcja #2 przycisku - Wklejamy ID kanału #skrypty-moderacja <br>
-Akcja #8 przycisku - Wklejamy ID kanału #skrypty-zabawa <br>
-Akcja #14 przycisku - Wklejamy ID kanału #skrypty-inne <br>
+**Akcja `#2` przycisku - Wklejamy ID kanału `#skrypty-moderacja`.** <br>
+**Akcja `#8` przycisku - Wklejamy ID kanału `#skrypty-zabawa`.** <br>
+**Akcja `#14` przycisku - Wklejamy ID kanału `#skrypty-inne`.** <br>
 
-(Dodatkowo jeżeli chcemy możemy zmienić emotki jakie bot doda do wiadomości. Wtedy zmieniamy to w akcjach #3, #4, #9, #10, #15, #16) <br>
+*(Dodatkowo jeżeli chcemy możemy zmienić emotki jakie bot doda do wiadomości. Wtedy zmieniamy to w akcjach `#3`, `#4`, `#9`, `#10`, `#15`, `#16`)* <br>
 
 Następnie wracamy do akcji komendy. Przechodzimy do akcji #11 => 'Buttons' => 'Przyjmij' <br>
 
